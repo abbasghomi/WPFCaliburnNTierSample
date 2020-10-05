@@ -1,0 +1,26 @@
+# WPF Caliburn NTier Sample
+
+Sample WPF project using Caliburn.Micro MVVM framework with .Net 4.7.2
+
+
+
+I had a job interview with an **American company** recently and this sample is the result of the **Coding Test session**
+
+
+
+- Project Specs:
+  - Framework: .Net 4.7.2
+  - Caliburn.Micro MVVM framework 3.2.0
+  - Entity Framework 6.4.4
+- Project Creation Environment:
+  - IDE: Visual Studio 2019 Community edition
+  - OS: Windows 10
+
+- To run project:
+  - Open the project in IDE
+  - Restore Nuget
+  - Set your SqlServer data server name in app.config in connection string in PresentationLayer project (replace "SqlServerInstanceName")
+    -- Note: You can use command update-database to create database without data or download database backup file from "https://bit.ly/34mXxXJ" and after extracting it restore the database backup in MS SqlServer to have database and sample data
+  - Restore database
+  - Run the project
+

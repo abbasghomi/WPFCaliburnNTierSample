@@ -1,0 +1,17 @@
+﻿<Application x:Class="WPFCaliburnNTierSample.PresentationLayer.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WPFCaliburnNTierSample.PresentationLayer" 
+             xmlns:valueConverter="clr-namespace:WPFCaliburnNTierSample.PresentationLayer.Common.ValueConverter">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary>
+                    <local:AppBootstrapper x:Key="Bootstrapper"/>
+                    <valueConverter:BooleanToVisibilityConverter x:Key="booleanToVisibilityConverter"></valueConverter:BooleanToVisibilityConverter>
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+
+</Application>

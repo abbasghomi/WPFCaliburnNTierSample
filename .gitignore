@@ -1,0 +1,12 @@
+
+.vs/
+
+packages/
+
+src/DomainLayer/bin/
+
+src/DomainLayer/obj/
+
+src/PresentationLayer/bin/
+
+src/PresentationLayer/obj/
